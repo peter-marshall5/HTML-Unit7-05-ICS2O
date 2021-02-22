@@ -18,7 +18,7 @@ function onclick () {
   const age = parseInt(ageInput.value)
   const weekday = parseInt(dayInput.value)
   // 2 = Tuesday, 4 = Thursday
-  if (weekday == 0 || weekday == 6) {
+  if (weekday === 0 || weekday === 6) {
     weekend()
     return
   }
