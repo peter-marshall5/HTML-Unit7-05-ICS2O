@@ -19,7 +19,7 @@ function onclick () {
   const weekday = parseInt(dayInput.value)
   // 2 = Tuesday, 4 = Thursday
   if (weekday == 0 || weekday == 6) {
-    noSchool()
+    weekend()
     return
   }
   if (age >= 18) {
